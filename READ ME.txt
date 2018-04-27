@@ -1,0 +1,19 @@
+há um header chamado json.h, ele deverá conter a declaração da estrutura(typedefs) da arvore.
+no seu programa principal deverá haver apenas um #include (tudo bem se houver outros, mas só precisa dele), 
+	#include "json.h".
+No header há uma função chamada salva que tem como parametro o ponteiro do primeiro elemento da arvore, que voce deve chamar depois da manipulçao da sua arvore
+	salva(arvore);
+essa função gera um arquivo do tipo JSON com a estrutura da sua arvore.
+
+Meu intuito inicial era ler esse arquivo com o javascript, como eu não consegui, a "leitura" do arquivo json deve ser feita manualmente
+
+abra o arquivo a.json e o index.html com um editor de texto qualquer,
+copie todo o conteudo do arquivo a.json para um trecho indicado no index.html
+	// inserir o json aqui
+
+agora no index.html há uma indicação para voce substituir a propriedade a ser exibida
+	/*propriedade a ser exibida*/
+ficando, por exemplo 
+	return d.numero;
+
+por fim, basta abrir o arquivo index.html em um navegador qualquer (preferencia chrome)
